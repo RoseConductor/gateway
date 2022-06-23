@@ -46,13 +46,13 @@ spring:
         - id: order
           uri: http://order:8080
           predicates:
-            - Path=/orders/** 
+            - Path=/user18-orders/** 
         - id: delivery
           uri: http://delivery:8080
           predicates:
-            - Path=/deliveries/** 
+            - Path=/user18-deliveries/** 
         - id: product
-          uri: http://product:8080
+          uri: http://user18-products:8080
           predicates:
             - Path=/inventories/** 
         - id: frontend
